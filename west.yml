@@ -9,6 +9,8 @@ manifest:
   remotes:
     - name: ncs
       url-base: https://github.com/nrfconnect
+    - name: nfed
+      url-base:  https://github.com/circuitdojo
 
   projects:
     - name: nrf
@@ -16,3 +18,7 @@ manifest:
       repo-path: sdk-nrf
       revision: 3653fec21b6a44d996217a37d3093ffe42b09160
       import: true
+    - name: nfed
+      remote: nfed
+      repo-path: nrf9160-feather-examples-and-drivers
+      revision: v3.2.x
